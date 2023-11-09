@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+body {
+  font-family: "Tajawal", sans-serif;
+  margin: 0;
+}
+
+.container {
+  margin: 0 92px;
+}
+
+/* HEADER */
+
+.foodPicture {
+  background-image: url(/img/ali-inay-9858-1024x683\ 1.png);
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navigate {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+  padding-left: 0;
+  margin-bottom: 56px;
+  font-weight: 700;
+}
+
+.languare {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* ORDERFOOD */
+
+.orderFood {
+  margin-top: 190px;
+  color: white;
+  padding-bottom: 190px;
+  text-align: center;
+}
+
+.orderTitle {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.orderText {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.search {
+  width: 1155px;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.search input {
+  width: 362px;
+  height: 59px;
+  border: 2px solid #ff8000;
+  border-radius: 3px;
+  padding-top: 10px;
+}
+
+.search ::placeholder {
+  font-size: 30px;
+  color: #d7d7d7;
+}
+
+.search button {
+  width: 362px;
+  height: 75px;
+  background-color: #ff8000;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 30px;
+  color: white;
+  border: none;
+}
+
+/* principleOperation */
+
+.principleOperation {
+  text-align: center;
+  position: relative;
+}
+
+.principleContent {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.principleTitle {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.principleText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.possibilities {
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.principleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principleCard button {
+  background-color: #0081ff;
+  width: 196px;
+  height: 60px;
+  color: white;
+  font-size: 40px;
+  border: none;
+  margin-top: 38px;
+  border-radius: 45px 10px 45px 10px;
+}
+
+.principleCard p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.blueReck {
+  background-color: #c6e1fc;
+  border-radius: 56px;
+  transform: rotate(4.93deg);
+  width: 379px;
+  height: 344px;
+  overflow: hidden;
+  position: relative;
+  right: 46px;
+  top: 30px;
+}
+
+.blueReckTwo {
+  overflow: hidden;
+  background-color: #c6e1fc;
+  border-radius: 10px;
+  transform: rotate(-7.8deg);
+  width: 117px;
+  height: 118px;
+  position: absolute;
+  bottom: -58px;
+  right: -10px;
+  align-self: flex-end;
+}
+
+/* Featured Restaurants */
+
+.restaurantRecom {
+  margin-top: 375px;
+  text-align: center;
+}
+
+.listRest {
+  display: flex;
+  gap: 40px;
+}
+
+.restorTitle {
+  font-size: 40px;
+}
+
+.restImg {
+  align-self: flex-start;
+}
+
+.restCard {
+  display: flex;
+  border-radius: 10px;
+  gap: 30px;
+  padding-top: 18px;
+  width: 659px;
+  height: 210px;
+  margin-top: 58px;
+  margin-bottom: 92px;
+  margin-left: 10px;
+  background-color: white;
+  box-shadow: -5px -5px 0px orange, 5px -5px 0px transparent,
+    -5px 5px 0px transparent, 0px 8px 5px darkgray;
+}
+
+.restIcon {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cardTitle {
+  color: #7b818a;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.cardText {
+  color: #7b818a;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.restCardText {
+  text-align: start;
+}
+
+.open {
+  background-color: #5eb46b;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+/* typeKitchen */
+.typeKitchen {
+  background-color: #fafafa;
+  display: flex;
+}
+
+.cusine {
+  margin-top: 70px;
+  height: 737px;
+}
+
+.listKitch {
+  margin-left: 50px;
+}
+
+.browse {
+  font-size: 45px;
+  margin-top: 85px;
+  margin-bottom: 0;
+}
+
+.choose {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.kitchen {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  grid-template-rows: repeat(4, 50fr);
+  gap: 20px;
+  column-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.kitchenItem {
+  display: flex;
+  align-items: center;
+}
+
+.kitchenItem h3 {
+  margin-left: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px orange, -2px -2px 0px orange, 2px -2px 0px orange,
+    -2px 2px 0px orange;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #373948;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.subscribeTitle {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 26px;
+}
+
+.subscribe {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  background-color: white;
+  border-radius: 25px;
+  width: 268px;
+  height: 92px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.subscrBtn {
+  background-color: #5eb46b;
+  width: 179px;
+  height: 92px;
+  border-radius: 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.finalText {
+  margin-top: 75px;
+  color: #8e8e97;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.finalTextItem {
+  list-style: none;
+}
+
+.menu {
+  text-align: center;
+}
+
+.finalText ul {
+  margin-top: 30px;
+}
